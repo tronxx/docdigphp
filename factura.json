@@ -1,0 +1,92 @@
+{
+    "meta": {
+        "objeto": "recepcion", 
+        "empresa_api_key": "4QXeBAuxVXNanwI1Ewpwjw", 
+        "empresa_uid": "bca5eefb45", 
+        "ambiente": "P"
+    }, 
+    "data": [
+        {
+            "datos_fiscales": {
+                "llave_pem": "", 
+                "llave_password": "", 
+                "certificado_pem": ""
+            }, 
+            "cfdi": {
+                "cfdi__comprobante": {
+                    "tipo_comprobante": "E", 
+                    "folio": "7364", 
+                    "cfdi__conceptos": {
+                        "cfdi__concepto": [
+                            {
+                                "cfdi__impuestos": {
+                                    "total_impuestos_trasladados": "4.6900", 
+                                    "cfdi__traslados": {
+                                        "cfdi__traslado": [
+                                            {
+                                                "tasa_cuota": "0.1600", 
+                                                "base": "29.31", 
+                                                "impuesto": "002", 
+                                                "importe": "4.6900", 
+                                                "tipo_factor": "Tasa"
+                                            }
+                                        ]
+                                    }
+                                }, 
+                                "cantidad": "1", 
+                                "valor_unitario": "29.31", 
+                                "clave_producto_servicio": "84121902", 
+                                "no_identificacion": "", 
+                                "descripcion": "BONIFICACION LETRA 24/24", 
+                                "clave_unidad": "E48", 
+                                "importe": "29.31", 
+                                "unidad": "SERVICIO"
+                            }
+                        ]
+                    }, 
+                    "cfdi__impuestos": {
+                        "total_impuestos_trasladados": "4.69", 
+                        "cfdi__traslados": {
+                            "cfdi__traslado": [
+                                {
+                                    "tasa_cuota": "0.1600", 
+                                    "base": "29.31", 
+                                    "impuesto": "002", 
+                                    "importe": "4.69", 
+                                    "tipo_factor": "Tasa"
+                                }
+                            ]
+                        }
+                    }, 
+                    "metodo_pago": "PUE", 
+                    "fecha": "2021-02-15T11:00:00", 
+                    "tipo_cambio": "1", 
+                    "serie": "IZBN", 
+                    "lugar_expedicion": "97540", 
+                    "cfdi__emisor": {
+                        "rfc": "MDS870209190", 
+                        "nombre": "MUEBLERIA DIAZ Y SOLIS SA de CV", 
+                        "regimen_fiscal": "601"
+                    }, 
+                    "cfdi__cfdi_relacionados": {
+                        "cfdi__cfdi_relacionado": [
+                            {
+                                "uuid": "5C85D940-F861-4743-8C23-1AC54C157085"
+                            }
+                        ], 
+                        "tipo_relacion": "01"
+                    }, 
+                    "forma_pago": "01", 
+                    "moneda": "MXN", 
+                    "total": "34.00", 
+                    "subtotal": "29.31", 
+                    "cfdi__receptor": {
+                        "rfc": "XAXX010101000", 
+                        "nombre": "IUIT CAUICH NATIVIDAD DEL SOCORRO", 
+                        "uso_cfdi": "G03"
+                    }
+                }
+            }
+        }
+    ]
+}

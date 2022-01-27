@@ -1,0 +1,212 @@
+{
+    "meta": {
+        "objeto": "recepcion", 
+        "empresa_api_key": "4QXeBAuxVXNanwI1Ewpwjw", 
+        "empresa_uid": "bca5eefb45", 
+        "ambiente": "P"
+    }, 
+    "data": [
+        {
+            "datos_fiscales": {
+                "llave_pem": "", 
+                "llave_password": "", 
+                "certificado_pem": ""
+            }, 
+            "cfdi": {
+                "cfdi__comprobante": {
+                    "tipo_comprobante": "P", 
+                    "folio": "864", 
+                    "cfdi__conceptos": {
+                        "cfdi__concepto": [
+                            {
+                                "cantidad": "1", 
+                                "valor_unitario": "0", 
+                                "clave_producto_servicio": "84111506", 
+                                "descripcion": "Pago", 
+                                "clave_unidad": "ACT", 
+                                "importe": "0"
+                            }
+                        ]
+                    }, 
+                    "fecha": "2021-02-10T13:00:00", 
+                    "serie": "IZPO", 
+                    "cfdi__complemento": {
+                        "pago10__pagos": {
+                            "pago10__pago": [
+                                {
+                                    "pago10__docto_relacionado": [
+                                        {
+                                            "folio": "5313", 
+                                            "numero_parcialidad": "19", 
+                                            "moneda_dr": "MXN", 
+                                            "id_documento": "A89E5A4A-7F5B-409C-AA5D-0AFCD9CA010A", 
+                                            "metodo_pago_dr": "PPD", 
+                                            "tipo_cambio_dr": "", 
+                                            "importe_saldo_insoluto": "1655.00", 
+                                            "serie": "IZFA", 
+                                            "importe_pagado": "300.00", 
+                                            "importe_saldo_anterior": "1955.00"
+                                        }
+                                    ], 
+                                    "cuenta_ordenante": "", 
+                                    "rfc_emisor_ordenante": "", 
+                                    "sello_pago": "", 
+                                    "monto": "300.00", 
+                                    "cuenta_beneficiario": "", 
+                                    "tipo_cambio": "", 
+                                    "nombre_banco_ordenante": "", 
+                                    "moneda": "MXN", 
+                                    "cadena_pago": "", 
+                                    "forma_pago": "01", 
+                                    "tipo_cadena_pago": "", 
+                                    "num_operacion": "0", 
+                                    "rfc_emisor_beneficiario": "", 
+                                    "certificado_pago": "", 
+                                    "fecha_pago": "2021-02-10T13:00:00"
+                                }, 
+                                {
+                                    "pago10__docto_relacionado": [
+                                        {
+                                            "folio": "5670", 
+                                            "numero_parcialidad": "4", 
+                                            "moneda_dr": "MXN", 
+                                            "id_documento": "B12F69FE-3B1B-4B9B-84D1-CF47FC8FE23D", 
+                                            "metodo_pago_dr": "PPD", 
+                                            "tipo_cambio_dr": "", 
+                                            "importe_saldo_insoluto": "5640.00", 
+                                            "serie": "IZFA", 
+                                            "importe_pagado": "282.00", 
+                                            "importe_saldo_anterior": "5922.00"
+                                        }
+                                    ], 
+                                    "cuenta_ordenante": "", 
+                                    "rfc_emisor_ordenante": "", 
+                                    "sello_pago": "", 
+                                    "monto": "282.00", 
+                                    "cuenta_beneficiario": "", 
+                                    "tipo_cambio": "", 
+                                    "nombre_banco_ordenante": "", 
+                                    "moneda": "MXN", 
+                                    "cadena_pago": "", 
+                                    "forma_pago": "01", 
+                                    "tipo_cadena_pago": "", 
+                                    "num_operacion": "0", 
+                                    "rfc_emisor_beneficiario": "", 
+                                    "certificado_pago": "", 
+                                    "fecha_pago": "2021-02-10T13:00:00"
+                                }, 
+                                {
+                                    "pago10__docto_relacionado": [
+                                        {
+                                            "folio": "5496", 
+                                            "numero_parcialidad": "13", 
+                                            "moneda_dr": "MXN", 
+                                            "id_documento": "901A46AC-9603-4102-85E6-BBCB49A7FC65", 
+                                            "metodo_pago_dr": "PPD", 
+                                            "tipo_cambio_dr": "", 
+                                            "importe_saldo_insoluto": "4301.00", 
+                                            "serie": "IZFA", 
+                                            "importe_pagado": "391.00", 
+                                            "importe_saldo_anterior": "4692.00"
+                                        }
+                                    ], 
+                                    "cuenta_ordenante": "", 
+                                    "rfc_emisor_ordenante": "", 
+                                    "sello_pago": "", 
+                                    "monto": "391.00", 
+                                    "cuenta_beneficiario": "", 
+                                    "tipo_cambio": "", 
+                                    "nombre_banco_ordenante": "", 
+                                    "moneda": "MXN", 
+                                    "cadena_pago": "", 
+                                    "forma_pago": "01", 
+                                    "tipo_cadena_pago": "", 
+                                    "num_operacion": "0", 
+                                    "rfc_emisor_beneficiario": "", 
+                                    "certificado_pago": "", 
+                                    "fecha_pago": "2021-02-10T13:00:00"
+                                }, 
+                                {
+                                    "pago10__docto_relacionado": [
+                                        {
+                                            "folio": "5496", 
+                                            "numero_parcialidad": "14", 
+                                            "moneda_dr": "MXN", 
+                                            "id_documento": "901A46AC-9603-4102-85E6-BBCB49A7FC65", 
+                                            "metodo_pago_dr": "PPD", 
+                                            "tipo_cambio_dr": "", 
+                                            "importe_saldo_insoluto": "3910.00", 
+                                            "serie": "IZFA", 
+                                            "importe_pagado": "354.00", 
+                                            "importe_saldo_anterior": "4264.00"
+                                        }
+                                    ], 
+                                    "cuenta_ordenante": "", 
+                                    "rfc_emisor_ordenante": "", 
+                                    "sello_pago": "", 
+                                    "monto": "354.00", 
+                                    "cuenta_beneficiario": "", 
+                                    "tipo_cambio": "", 
+                                    "nombre_banco_ordenante": "", 
+                                    "moneda": "MXN", 
+                                    "cadena_pago": "", 
+                                    "forma_pago": "01", 
+                                    "tipo_cadena_pago": "", 
+                                    "num_operacion": "0", 
+                                    "rfc_emisor_beneficiario": "", 
+                                    "certificado_pago": "", 
+                                    "fecha_pago": "2021-02-10T13:00:00"
+                                }, 
+                                {
+                                    "pago10__docto_relacionado": [
+                                        {
+                                            "folio": "5324", 
+                                            "numero_parcialidad": "16", 
+                                            "moneda_dr": "MXN", 
+                                            "id_documento": "4E56E68D-79AB-429E-88F7-46F4C1AA1EAC", 
+                                            "metodo_pago_dr": "PPD", 
+                                            "tipo_cambio_dr": "", 
+                                            "importe_saldo_insoluto": "0.00", 
+                                            "serie": "IZFA", 
+                                            "importe_pagado": "302.00", 
+                                            "importe_saldo_anterior": "302.00"
+                                        }
+                                    ], 
+                                    "cuenta_ordenante": "", 
+                                    "rfc_emisor_ordenante": "", 
+                                    "sello_pago": "", 
+                                    "monto": "302.00", 
+                                    "cuenta_beneficiario": "", 
+                                    "tipo_cambio": "", 
+                                    "nombre_banco_ordenante": "", 
+                                    "moneda": "MXN", 
+                                    "cadena_pago": "", 
+                                    "forma_pago": "01", 
+                                    "tipo_cadena_pago": "", 
+                                    "num_operacion": "0", 
+                                    "rfc_emisor_beneficiario": "", 
+                                    "certificado_pago": "", 
+                                    "fecha_pago": "2021-02-10T13:00:00"
+                                }
+                            ]
+                        }
+                    }, 
+                    "lugar_expedicion": "97540", 
+                    "cfdi__emisor": {
+                        "rfc": "MDS870209190", 
+                        "nombre": "MUEBLERIA DIAZ Y SOLIS SA de CV", 
+                        "regimen_fiscal": "601"
+                    }, 
+                    "moneda": "XXX", 
+                    "total": "0", 
+                    "subtotal": "0", 
+                    "cfdi__receptor": {
+                        "rfc": "XAXX010101000", 
+                        "nombre": "PUBLICO EN GENERAL", 
+                        "uso_cfdi": "P01"
+                    }
+                }
+            }
+        }
+    ]
+}

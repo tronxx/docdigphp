@@ -1,0 +1,12 @@
+{
+	"diazysolis.com.mx_facturacionmds":"diazysolis.com.mx_facturacionmds",
+	"xsource":"localhost:3306",
+	"xuser":"diazysol_factur",
+	"xpwd":"4AY^07^mod#T",
+	"xdatabase":"diazysol_facturacionmds",
+	"tron_localhost":"tron_localhost",
+	"source":"localhost:3306",
+	"user":"root",
+	"pwd":"",
+	"database":"facturacion"
+}

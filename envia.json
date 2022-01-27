@@ -1,0 +1,20 @@
+{"meta":
+	{
+		"empresa_uid":"937ee668a9",
+		"empresa_api_key":"DglI0vwA68arfM5KO2UKSw",
+		"ambiente":"S",
+		"objeto":"factura"
+	},
+	"data":[
+		{
+			"uuid":["9966F1EA-7FEE-4B63-819A-C7FC6A4F442F"],
+			"destinatarios":[
+				{"correo":"tronxx@gmail.com"}
+				],
+				"titulo":"Descargar factura",
+				"texto":"Adjunto factura generada",
+				"pdf":"true",
+				"logo":"http://diazysolis.com.mx/catalogo/html/fotos/mds/logo4.jpg"
+		}
+	]
+}

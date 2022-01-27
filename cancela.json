@@ -1,0 +1,24 @@
+  {  
+        "meta":{  
+            "empresa_uid":"",
+            "empresa_api_key":"",
+            "ambiente":"S",
+            "objeto":"factura"
+        },
+        "data": [ {
+        "rfc_emisor": "DDM090629R13",
+        "folios": [{
+          "rfc_receptor": "GNP9211244P0",
+          "total": "6399.00",
+          "uuid": "D4AD33B5-2017-4A2F-A442-D9E691D65591"	
+        }],
+        "datos_fiscales": {
+          "certificado_pem": "-----BEGIN CERTIFICATE-----\nMIIGSTCCB...-----END CERTIFICATE-----\n",
+          "llave_pem": "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAK...-----END RSA PRIVATE KEY-----\n",
+          "llave_password": "DDM090629R13"
+        },
+        "acuse": true
+      }
+    ]
+  }
+  

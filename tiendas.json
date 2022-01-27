@@ -1,0 +1,17 @@
+[
+    { "id": "24", "nombre":"MOTUL"},
+    { "id": "71", "nombre":"ACANCEH"},
+    { "id": "72", "nombre":"UMAN"},
+    { "id": "73", "nombre":"MAXCANU"},
+    { "id":"74", "nombre":"TEKIT"},
+    { "id":"75", "nombre":"TECOH"},
+    { "id":"76", "nombre":"HUNUCMA"},
+    { "id":"77", "nombre":"MUNA"},
+    { "id":"78", "nombre":"HOMUN"},
+    { "id":"CN", "nombre":"CANCELACIONES"},
+    { "id":"CO", "nombre":"MOROSOS CORPO"},
+    { "id":"IN", "nombre":"INCOBRABLES"},
+    { "id":"LI", "nombre":"LITIGIO"},
+    { "id":"MB", "nombre":"BONIFICACIONES"},
+    { "id":"MO", "nombre":"MOROSOS"}
+]
