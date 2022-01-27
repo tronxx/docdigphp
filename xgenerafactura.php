@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prueba de Facturacion en SandBox</title>
+</head>
+<body>
+<table border="1">
+  <tr>
+    <td> Generando factura:</td>
+  </tr>
+<?php 
+  require_once("registrar.php");
+  require_once("certificados.php");
+  date_default_timezone_set('America/Merida');
+  $cert = new Certificados();
+  $miskeys_z = json_decode(file_get_contents("tokens.json"), true);
+  $factura_z = json_decode(file_get_contents("factura.json"), true);
+  $date = new DateTime();
+  // $date->modify('-10 hours');
+  $entorno_z = $miskeys_z["entorno"];
+  $ambiente_z = $miskeys_z["ambiente"];
+  // $date->modify('-10 hours');
+  // Defino el Entorno Sandbox o Produccion 
+  // Defino Ambiente S de Sandbox o P de Produccion
+  $factura_z["meta"]["ambiente"]= $ambiente_z;
+  $factura_z["meta"]["empresa_uid"]= $miskeys_z["id"];
+  $factura_z["meta"]["empresa_api_key"] = $miskeys_z[$entorno_z]["KeyPublica"];
+  $factura_z["meta"]["objeto"] = "factura";
+
+  echo "Facturacion empresa_api_key:" .  $factura_z["meta"]["empresa_api_key"] . "<br>";
+
+      $factura_z["data"][0]["datos_fiscales"]["certificado_pem"]  =  $cert->contenidoCertificado("mds20201106.cer");
+      $factura_z["data"][0]["datos_fiscales"]["llave_pem"]        = $cert->contenidoLlave("key.pem");
+      $factura_z["data"][0]["datos_fiscales"]["llave_password"]   = $cert->passwordLlave("passw.txt");
+      $factura_z["data"][0]["cfdi"]["cfdi__comprobante"]["fecha"] = $date->format('Y-m-d\TH:i:s');  
+      echo "Facturacion datos_fiscales llave_password:" .  $factura_z["data"][0]["datos_fiscales"]["llave_password"] . "<br>";
+
+      // $facturaGenerada = $api->generacionFactura($factura);
+      $url = "https://api.docdigitales.com/v1/facturas/generar";
+      $facturaGenerada = registra_conexion($url, $factura_z);
+      $uuid = $facturaGenerada["data"][0]["cfdi_complemento"]["uuid"];
+      $idfac = $facturaGenerada["meta"]["respuesta_uid"];
+      echo "<tr><td>Uuid:" . $uuid . "</td></tr>";
+      echo "<tr><td>idRespuesta:" . $idfac . "</td></tr>";
+
+?>
+</table>
+</body>
+</html>

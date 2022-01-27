@@ -1,0 +1,13 @@
+{
+	"user":"tron_xx@hotmail.com",
+	"id": "bca5eefb45",
+	"SandBox" : {
+		"KeyPrivada": "4QXeBAuxVXNanwI1Ewpwjw",
+		"KeyPublica": "vq5lZrEjOf2eecz7B_uyiw"
+	},
+	"Produccion": {
+		"KeyPrivada": "wn72nYl9Wr7g_BMVu7zZ2g",
+		"KeyPublica": "VhqQVtPaap8e3_FS3xfTew"
+
+	}
+}
